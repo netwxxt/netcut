@@ -6,7 +6,7 @@ from functools import wraps
 app = Flask(__name__)
 app.secret_key = os.urandom(24)
 
-PASSWORD = "admin123"  # Change this!
+PASSWORD = "password"  # Change this!
 
 attack_procs = {}
 attack_lock = threading.Lock()
